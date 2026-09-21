@@ -262,7 +262,7 @@ public class MainForm extends javax.swing.JFrame {
 
         jLabel1.setText("Prodavac:");
 
-        jLabel2.setText("Ocekivani datum isporuke::");
+        jLabel2.setText("Ocekivani datum isporuke:");
 
         jLabel3.setText("Ukupna cena:");
 
