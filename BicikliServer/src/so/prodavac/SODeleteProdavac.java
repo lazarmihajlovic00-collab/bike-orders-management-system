@@ -21,6 +21,11 @@ public class SODeleteProdavac extends AbstractSO {
         if (!(ado instanceof Prodavac)) {
             throw new Exception("Prosledjeni objekat nije instanca klase Prodavac!");
         }
+
+        Prodavac p = (Prodavac) ado;
+        if (p.getProdavacID() <= 0) {
+            throw new Exception("Prodavac sa navedenim ID-jem ne postoji!");
+        }
     }
 
     @Override
